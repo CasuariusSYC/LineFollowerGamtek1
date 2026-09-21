@@ -1,0 +1,208 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "2c70ea87-6df6-4a04-b644-f512b447157b")
+	(paper "A4")
+	(title_block
+		(title "Line Folower ")
+		(company "Politeknik Elektronika Negri Surabaya")
+		(comment 2 "Designer : Andrith")
+	)
+	(lib_symbols)
+	(sheet
+		(at 154.94 82.042)
+		(size 24.13 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "16d863b5-22f4-4ce2-b63d-d5f1a56dfc28")
+		(property "Sheetname" "MCU"
+			(at 154.94 81.3304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 154.94 100.4066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "line Folower"
+				(path "/2c70ea87-6df6-4a04-b644-f512b447157b"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.374 83.312)
+		(size 28.956 17.018)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 255 221 18 1.0000)
+		)
+		(uuid "1763f80f-011b-401f-8617-860630b06f84")
+		(property "Sheetname" "Sensor"
+			(at 78.232 92.964 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 71.374 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "line Folower"
+				(path "/2c70ea87-6df6-4a04-b644-f512b447157b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102.362 83.058)
+		(size 24.384 16.002)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "858432c4-9f54-4a2d-81bc-49ff117df583")
+		(property "Sheetname" "Logic"
+			(at 102.362 82.3464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Logic.kicad_sch"
+			(at 102.362 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "line Folower"
+				(path "/2c70ea87-6df6-4a04-b644-f512b447157b"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.116 83.058)
+		(size 24.384 17.272)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "86e8b87f-2f98-4496-ad74-082436883d41")
+		(property "Sheetname" "Power Supply"
+			(at 39.116 82.3464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Supply.kicad_sch"
+			(at 39.116 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "line Folower"
+				(path "/2c70ea87-6df6-4a04-b644-f512b447157b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 82.042)
+		(size 23.622 17.272)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c5aa86cc-9e6b-4977-9079-45dd2dfa2beb")
+		(property "Sheetname" "Driver"
+			(at 129.54 81.3304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Driver.kicad_sch"
+			(at 129.54 99.8986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "line Folower"
+				(path "/2c70ea87-6df6-4a04-b644-f512b447157b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
