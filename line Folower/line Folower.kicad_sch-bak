@@ -1,0 +1,972 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "2c70ea87-6df6-4a04-b644-f512b447157b")
+	(paper "A4")
+	(title_block
+		(title "Line Folower ")
+		(company "Politeknik Elektronika Negri Surabaya")
+		(comment 2 "Designer : Andrith")
+	)
+	(lib_symbols
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 128.016 52.832) (xy 128.016 53.086)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "041f3066-12fb-44af-b1ec-e849cc615fa7")
+	)
+	(wire
+		(pts
+			(xy 61.214 70.104) (xy 61.214 63.754)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a2ce30d-0e13-428e-9b21-34cf2eda3f7f")
+	)
+	(wire
+		(pts
+			(xy 152.146 52.832) (xy 128.016 52.832)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36eb7664-b9aa-4af0-8dc6-9ac58482bd67")
+	)
+	(wire
+		(pts
+			(xy 59.182 52.324) (xy 61.722 52.324)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39c10dcd-2a20-4fb7-a45b-342a33e0ba39")
+	)
+	(wire
+		(pts
+			(xy 147.066 62.484) (xy 147.066 64.008)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bbf0b7c-e51c-48b5-92a8-47ee9f9a3885")
+	)
+	(wire
+		(pts
+			(xy 136.906 64.262) (xy 125.222 64.262)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4333285a-4cd3-4c19-86e6-bdcd1e99fd37")
+	)
+	(wire
+		(pts
+			(xy 125.222 62.484) (xy 147.066 62.484)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ccf7578-1b8c-44fd-9d83-5f5f6ac15ea3")
+	)
+	(wire
+		(pts
+			(xy 147.066 64.008) (xy 152.146 64.008)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ec43cb1-1aae-4cd0-bd57-0f9ac4c8a98b")
+	)
+	(wire
+		(pts
+			(xy 61.214 63.754) (xy 59.182 63.754)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f16b138-b4a4-4890-8a16-a76ca4728d64")
+	)
+	(wire
+		(pts
+			(xy 150.114 61.468) (xy 136.906 61.468)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5612713f-a814-4044-9509-13cee982cf07")
+	)
+	(wire
+		(pts
+			(xy 152.146 51.054) (xy 152.146 51.308)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6055c9b8-666e-46f0-958c-2b23dbe500de")
+	)
+	(wire
+		(pts
+			(xy 125.222 51.308) (xy 152.146 51.308)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b2d8854-8117-4921-86ac-abd151c3fa71")
+	)
+	(wire
+		(pts
+			(xy 61.722 52.324) (xy 61.722 45.212)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cf71821-ab83-487b-b585-5873eac6818d")
+	)
+	(wire
+		(pts
+			(xy 152.146 62.23) (xy 150.114 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e74f8e7-952c-481c-8651-b4a8bc8d917a")
+	)
+	(wire
+		(pts
+			(xy 150.114 62.23) (xy 150.114 61.468)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8840a344-cd51-4759-8380-29626d731526")
+	)
+	(wire
+		(pts
+			(xy 136.906 61.468) (xy 136.906 64.262)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdbe04f8-6488-4256-950e-b14e1254d664")
+	)
+	(wire
+		(pts
+			(xy 97.536 55.118) (xy 101.092 55.118)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e80a115a-cbb7-4bf1-9fd0-7067c6b05ac7")
+	)
+	(wire
+		(pts
+			(xy 97.536 51.816) (xy 101.092 51.816)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f09cef01-c9a9-4864-9934-e6cd7c3beca9")
+	)
+	(wire
+		(pts
+			(xy 128.016 53.086) (xy 125.222 53.086)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff3977a2-13a6-4034-8f2f-118ed7d140d4")
+	)
+	(hierarchical_label "L"
+		(shape output)
+		(at 152.146 52.832 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "02659566-67fd-4db8-ba96-de3c9a8168d9")
+	)
+	(hierarchical_label "PWM"
+		(shape input)
+		(at 126.238 80.264 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "15a9c66a-0acb-4ed8-a7f1-5908d1b914ca")
+	)
+	(hierarchical_label "L"
+		(shape output)
+		(at 101.092 51.816 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2f06cfea-6f1d-4fe7-9344-bd9e64aae9fe")
+	)
+	(hierarchical_label "PWM"
+		(shape output)
+		(at 152.146 59.182 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3fd75eb1-ed66-47b7-829c-171fb16e33ca")
+	)
+	(hierarchical_label "R"
+		(shape output)
+		(at 125.222 64.262 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5b0473d5-1ade-444d-ad13-980fa4164488")
+	)
+	(hierarchical_label "R"
+		(shape output)
+		(at 101.092 55.118 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7a54d767-aee7-4523-8983-bba783f14cdf")
+	)
+	(hierarchical_label "L~"
+		(shape output)
+		(at 125.222 51.308 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8722b297-c728-4892-9aa3-3678f7f74f10")
+	)
+	(hierarchical_label "PWM"
+		(shape output)
+		(at 152.146 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9c3b0225-f227-415b-ad80-9438dbfc2bea")
+	)
+	(hierarchical_label "R~"
+		(shape output)
+		(at 125.222 62.484 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b19f74d0-8482-4a98-8a05-bac2da77bf9e")
+	)
+	(hierarchical_label "R"
+		(shape input)
+		(at 97.536 55.118 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b7317561-6b60-43e1-bae2-fdf8fa20b45f")
+	)
+	(hierarchical_label "R~"
+		(shape output)
+		(at 152.146 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b94f605d-49c9-47db-b7f4-75104ab2a1d8")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 59.182 63.754 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bd133250-591a-4941-8754-3ea13bab68e5")
+	)
+	(hierarchical_label "PWM"
+		(shape input)
+		(at 126.238 83.312 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d1fc6615-8a1e-42cc-933c-2b85291c5107")
+	)
+	(hierarchical_label "VCC"
+		(shape input)
+		(at 59.182 52.324 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e15a6503-d123-4824-95a5-4e7af86eb56d")
+	)
+	(hierarchical_label "L"
+		(shape input)
+		(at 97.536 51.816 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e30ca7dc-b84a-41ba-9232-e84e1d711bd6")
+	)
+	(hierarchical_label "R"
+		(shape output)
+		(at 152.146 64.008 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f4e0e32f-2456-4a38-8937-ab725599a702")
+	)
+	(hierarchical_label "L"
+		(shape output)
+		(at 125.222 53.086 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f822b6b0-60b0-410e-86b0-3ce4aaa4bb48")
+	)
+	(hierarchical_label "L~"
+		(shape output)
+		(at 152.146 51.054 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f8fa83dd-6c6d-47bd-b272-4761661d31e1")
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 61.722 45.212 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54e812c3-72c5-4867-8608-6926211343cb")
+		(property "Reference" "#PWR044"
+			(at 61.722 49.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 61.722 40.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 61.722 45.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 61.722 45.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 61.722 45.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c99450c-1ce8-4385-a8d6-402c10990c86")
+		)
+		(instances
+			(project "line Folower"
+				(path "/2c70ea87-6df6-4a04-b644-f512b447157b"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 61.214 70.104 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdb51753-c503-4f1d-8837-affbdf4125b7")
+		(property "Reference" "#PWR043"
+			(at 61.214 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 61.214 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 61.214 70.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 61.214 70.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 61.214 70.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23dd3c71-016e-43aa-89f3-5b4a08e84ba5")
+		)
+		(instances
+			(project ""
+				(path "/2c70ea87-6df6-4a04-b644-f512b447157b"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 68.58 50.038)
+		(size 28.956 17.018)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 255 236 216 1.0000)
+		)
+		(uuid "1763f80f-011b-401f-8617-860630b06f84")
+		(property "Sheetname" "Sensor"
+			(at 69.088 49.53 0)
+			(effects
+				(font
+					(size 2.5 2.5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 68.58 67.6406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "line Folower"
+				(path "/2c70ea87-6df6-4a04-b644-f512b447157b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.854 76.2)
+		(size 24.384 17.272)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "630239e8-ced7-4929-b7e8-3448919ab386")
+		(property "Sheetname" "PWM"
+			(at 101.854 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PWM.kicad_sch"
+			(at 101.854 94.0566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 101.854 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "line Folower"
+				(path "/2c70ea87-6df6-4a04-b644-f512b447157b"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.092 50.038)
+		(size 24.384 16.002)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "858432c4-9f54-4a2d-81bc-49ff117df583")
+		(property "Sheetname" "Logic"
+			(at 101.092 49.3264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Logic.kicad_sch"
+			(at 101.092 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "line Folower"
+				(path "/2c70ea87-6df6-4a04-b644-f512b447157b"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.052 49.276)
+		(size 24.384 17.272)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "86e8b87f-2f98-4496-ad74-082436883d41")
+		(property "Sheetname" "Power Supply"
+			(at 35.052 48.5644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Supply.kicad_sch"
+			(at 35.052 67.1326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "line Folower"
+				(path "/2c70ea87-6df6-4a04-b644-f512b447157b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.146 49.53)
+		(size 23.622 17.272)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c5aa86cc-9e6b-4977-9079-45dd2dfa2beb")
+		(property "Sheetname" "Driver"
+			(at 152.146 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Driver.kicad_sch"
+			(at 152.146 67.3866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "line Folower"
+				(path "/2c70ea87-6df6-4a04-b644-f512b447157b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
